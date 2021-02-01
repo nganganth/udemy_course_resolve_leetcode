@@ -1,0 +1,13 @@
+* Big O:
+- Define "Time complexity and space complexity"
+helps when making trade offs between space and time
+- Find out time/space complexity of different algorithms
+
+linear f(N) => f(N) = N
+quadractic f(N) => f(N) = N"2
+constant f(N) => f(N) = 1 
+sth completely different 
+
+
+- Linear algorithm: O(2*N) is equivalent to O(N)
+- Polynomi algorithm: 
