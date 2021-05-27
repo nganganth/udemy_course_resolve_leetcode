@@ -2,13 +2,13 @@
 # 39. Combination Sum
 
 class Solution:
-    def solution(candidates, ans, curr, target, index, sum):
+    def solution(self, candidates, ans, curr, target, index, sum):
       if sum == target:
         ans.append(curr[:])
       elif sum < target:
-        n = len(condidates)
+        n = len(candidates)
         for i in range(index, n):
-          curr.append(candidates[i]):
+          curr.append(candidates[i])
           self.solution(candidates, ans, curr, target, i, sum + candidates[i])
           curr.pop()
       return
