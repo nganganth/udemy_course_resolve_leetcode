@@ -10,6 +10,9 @@ class Graph:
   def insertEdge(self, v1, v2):
     if self.withInBounds(v1, v2):
       self.graph[v1][v2] = 1
+      # add the below line for undirected graph 
+      # v1 <=> v2
+      self.graph[v2][v1] = 1
   
   def printGraph(self):
     for i in range(self.numberOfNodes):
